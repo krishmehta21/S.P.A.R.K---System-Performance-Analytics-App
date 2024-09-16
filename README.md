@@ -1,47 +1,49 @@
-# SPARK - Superior Performance Assessment and Real-time Kinetics
+# 🚀 **SPARK** - *Superior Performance Assessment and Real-time Kinetics*
 
-SPARK is an advanced system performance analytics application that collects real-time system data, stores it in a MySQL database, and provides detailed visualizations of performance metrics. Additionally, it creates machine learning models to predict future CPU and GPU usage, helping to optimize system efficiency.
 
-## Features
+SPARK is an advanced performance analytics app that collects real-time system data, stores it in a MySQL database, provides visualizations, and predicts future CPU and GPU usage using machine learning models.
 
-- **Real-time System Monitoring**:
-  - Collects real-time data on system metrics such as CPU utilization, GPU usage, memory usage, and more.
-  - Data is stored in a MySQL database for historical tracking.
+## ✨ **Key Features**
 
-- **Visualization of ML Program Stats**:
-  - Displays key metrics of machine learning programs being executed, such as:
-    - Epochs
-    - Training and validation accuracy
-    - F1 score
-    - Other model performance statistics
+- 🔥 **Real-time System Monitoring**:
+  - Tracks system metrics such as:
+    - 💻 CPU utilization
+    - 🎮 GPU usage
+    - 📊 Memory usage
+  - All data is stored in a MySQL database for future analysis.
 
-- **Machine Learning Predictions**:
-  - Uses historical data to create machine learning models with the ARIMA algorithm.
-  - Predicts CPU and GPU usage, enabling proactive performance optimization.
+- 📈 **Machine Learning Program Visualizations**:
+  - Displays key ML metrics, including:
+    - 🔄 Epochs
+    - ✅ Training and Validation accuracy
+    - 🏆 F1 score
+    - 🚀 Other model performance stats
 
-- **Frontend**:
-  - The user interface is built using **React**, offering a clean and intuitive dashboard.
-  - Real-time and historical data are visualized using charts and graphs.
+- 🧠 **ML-based Performance Predictions**:
+  - Utilizes historical data to create machine learning models with **ARIMA**.
+  - 📉 Predicts future CPU and GPU usage to optimize system performance.
 
-- **Backend**:
-  - The backend is developed using **Flask**, handling data ingestion and providing APIs for the frontend.
+- 💡 **Interactive Visualizations**:
+  - View all performance metrics in real-time via clean and dynamic charts.
+  - Historical trends are also displayed for more in-depth analysis.
 
-## Tech Stack
+## 🛠️ **Tech Stack**
 
-- **Frontend**: React
-- **Backend**: Flask
-- **Database**: MySQL
-- **Machine Learning**: ARIMA (for time-series predictions)
-- **Visualizations**: Chart.js / D3.js (for graphing performance metrics)
+| Technology   | Description                            |
+| ------------ | -------------------------------------- |
+| **Frontend** | ⚛️ React (for dashboard visualizations) |
+| **Backend**  | 🐍 Flask (REST APIs and data handling) |
+| **Database** | 🐬 MySQL (for storing system metrics)  |
+| **ML Model** | 📊 ARIMA (for time-series forecasting) |
 
-## Installation
+## 🚀 **Installation Guide**
 
 ### Prerequisites
 
 - Node.js (for React)
 - Python 3.x (for Flask)
-- MySQL (for data storage)
-- Required Python packages: Flask, MySQL connector, ARIMA (statsmodels), etc.
+- MySQL (for the database)
+- Required Python packages: Flask, MySQL Connector, statsmodels (for ARIMA)
 
 ### Steps
 
